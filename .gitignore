@@ -1,0 +1,69 @@
+# Binários compilados para diferentes sistemas operacionais e arquiteturas
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Arquivos gerados por Go
+/bin/
+/pkg/
+*.o
+*.a
+
+# Dependências - o diretório vendor se estiver usando
+vendor/
+
+# Output dos testes de cobertura
+*.out
+*.coverprofile
+
+# Arquivos de ambiente e configuração
+.env
+.env.*
+*.env
+configs/.env
+configs/*.env
+*.pem
+*.key
+*.crt
+*.cert
+
+# Logs
+*.log
+logs/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Diretórios de arquivos temporários
+/tmp
+/temp
+
+# Cache do Go
+.cache/
+
+# Arquivos de build
+build/
+dist/
+
+# Arquivos específicos do projeto
+.air.toml
+jwt_*.key
+swagger-spec.json
+
+# Arquivos de configuração local que podem conter dados sensíveis
+config.local.yaml
+config.dev.yaml
+
+# Arquivos temporários do Swagger
+api/docs/docs.go
+api/docs/swagger.json
+api/docs/swagger.yaml 
