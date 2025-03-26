@@ -20,7 +20,7 @@ Blockchain-based donation tracking platform
 # Levitate API Documentation
 
 > [!NOTE]  
-> **Work in Progress**: Este projeto está atualmente em desenvolvimento ativo. Recursos e endpoints podem mudar conforme o desenvolvimento continua.
+> **Work in Progress**: This project is currently under active development. Features and endpoints may change as development continues.
 
 Levitate is a blockchain-based donation tracking platform that enables complete transparency between donors and NGOs. The platform allows donors to track how their donations are used and enables NGOs to provide proof of resource allocation.
 
