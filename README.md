@@ -454,33 +454,33 @@ X-Admin-ID: admin-123
 
 ## Contribution
 
-Para contribuir com este projeto:
+To contribute to this project:
 
-1. Faça um fork do repositório
-2. Crie seu branch de funcionalidade: `git checkout -b feature/funcionalidade-incrivel`
-3. Faça commit das suas alterações: `git commit -m 'Adiciona alguma funcionalidade incrível'`
-4. Faça push para o branch: `git push origin feature/funcionalidade-incrivel`
-5. Abra um Pull Request
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add some amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
-### Ambiente de Desenvolvimento
+### Development Environment
 
 - Go 1.18+
-- Docker e Docker Compose para ambiente de desenvolvimento local
-- PostgreSQL para armazenamento de dados
-- IPFS para armazenamento de documentos
-- Blockchain privada para registros imutáveis
+- Docker and Docker Compose for local development environment
+- PostgreSQL for data storage
+- IPFS for document storage
+- Private blockchain for immutable records
 
-### Considerações sobre o .gitignore
+### .gitignore Considerations
 
-O projeto inclui um arquivo `.gitignore` configurado para projetos Go que exclui:
+The project includes a `.gitignore` file configured for Go projects that excludes:
 
-- Binários compilados
-- Arquivos de ambiente (.env)
-- Arquivos de chaves privadas e certificados
-- Arquivos temporários e de cache
-- Arquivos específicos de IDEs
+- Compiled binaries
+- Environment files (.env)
+- Private keys and certificate files
+- Temporary and cache files
+- IDE-specific files
 
-**Importante**: Nunca comite chaves privadas, tokens JWT ou credenciais de banco de dados no repositório. Utilize o arquivo `.env.example` como modelo e crie seu próprio `.env` local.
+**Important**: Never commit private keys, JWT tokens, or database credentials to the repository. Use the `.env.example` file as a template and create your own local `.env`.
 
 ## License
 
